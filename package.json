@@ -1,0 +1,33 @@
+{
+  "name": "styled-notifications-element",
+  "version": "1.0.0",
+  "description": "Polymer lit-element implementation of JamieLivingstone/Notifications",
+  "main": "styled-notifications-element.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cavebeavis/Styled-Notifications-Element.git"
+  },
+  "keywords": [
+    "notifications",
+    "lit-element",
+    "polymer"
+  ],
+  "author": "cavebeavis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cavebeavis/Styled-Notifications-Element/issues"
+  },
+  "homepage": "https://github.com/cavebeavis/Styled-Notifications-Element#readme",
+  "devDependencies": {
+    "@polymer/iron-demo-helpers": "^3.0.2",
+    "@webcomponents/webcomponentsjs": "^2.1.3",
+    "wct-browser-legacy": "^1.0.2"
+  },
+  "dependencies": {
+    "@polymer/lit-element": "^0.6.2",
+    "styled-notifications": "^1.0.3"
+  }
+}

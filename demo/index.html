@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+    <title>notifications-element demo</title>
+
+    <script src="../node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+
+    <script type="module">
+      import '@polymer/iron-demo-helpers/demo-pages-shared-styles';
+      import '@polymer/iron-demo-helpers/demo-snippet';
+    </script>
+
+    <script type="module" src="../styled-notifications-element.js"></script>
+
+    <custom-style>
+      <style is="custom-style" include="demo-pages-shared-styles">
+      </style>
+    </custom-style>
+  </head>
+  <body>
+    <div class="vertical-section-container centered">
+      <h3>Basic notifications-element demo</h3>
+      <demo-snippet>
+        <template>
+          <styled-notifications-element id="test" infoColor="black"></styled-notifications-element>
+        </template>
+      </demo-snippet>
+    </div>
+    <script>
+      document.addEventListener( "DOMContentLoaded", () => {
+        setTimeout(() => {
+          let test = document.getElementById('test');
+          test.notification = {
+            title: 'Testing',
+            message: 'Test Info Notiication sent 1500ms after render and display set at 15000ms. The color is black because the infoColor property has been set in the tag. Otherwise, it defaults to #2F96B4.',
+            showDuration: 15000,
+            theme: 'info',
+            positionClass: 'nfc-top-middle'
+          };
+        },1500);
+      });
+    </script>
+  </body>
+</html>
