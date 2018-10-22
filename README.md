@@ -1,6 +1,6 @@
 # \<styled-notifications-element\>
 
-Polymer lit-element implementation of JamieLivingstone/Notifications
+Polymer lit-element implementation of [JamieLivingstone/styled-notifications](https://github.com/JamieLivingstone/styled-notifications)
 
 
 
@@ -21,3 +21,8 @@ $ polymer test
 ```
 
 Your application is already set up to be tested via [web-component-tester](https://github.com/Polymer/web-component-tester). Run `polymer test` to run your application's test suite locally.
+
+## TODO
+1. Improve documentation
+2. Further device testing
+3. Add contributor instructions
