@@ -1,6 +1,6 @@
 {
   "name": "styled-notifications-element",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Polymer lit-element implementation of JamieLivingstone/styled-notifications",
   "main": "styled-notifications-element.js",
   "scripts": {
